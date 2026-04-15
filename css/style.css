@@ -1,0 +1,66 @@
+:root{
+    --cor-de-fundo: #0B0A14;
+    --branco-principal: #FFFFFF;
+    --botao-azul: #167BF7;
+    --cinza-segundario: #C0C0C0;
+    --fonte-principal: "inter";
+    --efeito-lista: purple;
+    --botao-azul-efeito: #A860AA;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+}
+
+.principal{
+    background-image: url('../img/new_fundo\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+
+}
+
+.container_caixa{
+margin-left: 10;
+margin-right: 10rem;
+margin-top: 1rem;
+margin-bottom: 10rem;
+
+
+}
+
+.container_titulo{
+    font-size: 1.75rem;
+}
+
+.container_imagem{
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-left: 0;
+}
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
